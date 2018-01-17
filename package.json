@@ -1,0 +1,29 @@
+{
+  "name": "@hub9/stylelint-config",
+  "version": "1.0.0",
+  "description": "hub9 configuration for Stylelint",
+  "main": "index.js",
+  "repository": "git+https://github.com/hub9co/stylelint-config.git",
+  "keywords": [
+    "stylelint",
+    "sass",
+    "scss",
+    "bem"
+  ],
+  "author": "Rômulo Fernandes (@romulof)",
+  "license": "MIT",
+  "bugs": "https://github.com/hub9co/stylelint-config/issues",
+  "homepage": "https://github.com/hub9co/stylelint-config",
+  "dependencies": {
+    "stylelint-config-idiomatic-order": "^5.0.0",
+    "stylelint-config-sass-guidelines": "^4.1.0",
+    "stylelint-config-standard": "^18.0.0",
+    "stylelint-declaration-strict-value": "^1.0.4",
+    "stylelint-order": "^0.8.0",
+    "stylelint-scss": "^2.2.0",
+    "stylelint-selector-bem-pattern": "^2.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^8.0.0"
+  }
+}
